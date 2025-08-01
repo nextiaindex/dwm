@@ -6,7 +6,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]		= { "monospace:size=10" }
+static const char dmenufont[]		= { "monospace:size=10" };
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -95,9 +95,9 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,										7)
 	TAGKEYS(                        XK_9,										8)
 	{ MODKEY|ShiftMask,             XK_q,      					quit,			{0} },
-	{ 0, 							XK_Print   					spawn,			SHCMD("~/.local/bin/maim-plain")},
-	{ MODKEY, 						XK_Print   					spawn,			SHCMD("~/.local/bin/maim-fancy")},
-	{ ControlMask, 					XK_Print   					spawn,			SHCMD("~/.local/bin/maim-full")},
+	{ 0, 							XK_Print   					spawn,			SHCMD("~/.local/bin/maim-plain") },
+	{ MODKEY, 						XK_Print   					spawn,			SHCMD("~/.local/bin/maim-fancy") },
+	{ ControlMask, 					XK_Print   					spawn,			SHCMD("~/.local/bin/maim-full") },
 	{ 0,							XF86XK_MonBrightnessUp,		spawn,			SHCMD("brightnessctl set +5%") },
 	{ 0,							XF86XK_MonBrightnessDown,	spawn,			SHCMD("brightnessctl set -5%") },
 	{ 0,							XF86XK_AudioRaiseVolume, 	spawn,			SHCMD("pactl set-sink-volume 0 +1%") },
