@@ -98,6 +98,9 @@ static const Key keys[] = {
 	{ ControlMask, 					XK_Print   spawn, 		   SHCMD("~/.local/bin/maim-full")},
 	{ 0,							XF86XK_MonBrightnessUp, spawn, SHCMD("brightnessctl set +5%") }
 	{ 0,							XF86XK_MonBrightnessDown, spawn, SHCMD("brightnessctl set -5%") }
+	{ 0,							XF86XK_AudioRaiseVolume, spawn, SHCMD("pactl set-sink-volume 0 +1%") }
+	{ 0,							XF86XK_AudioLowerVolume, spawn, SHCMD("pactl set-sink-volume 0 -1%") }
+	{ 0,							XF86XK_AudioMute, spawn, SHCMD("pactl set-sink-mute 0 toggle") }
 };
 
 /* button definitions */
