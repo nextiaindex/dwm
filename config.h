@@ -57,7 +57,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0";
-static const char *rofidruncmd[]  = { "rofi", "-show", "drun", NULL }
+static const char *rofidruncmd[]  = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
