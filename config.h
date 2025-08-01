@@ -61,6 +61,8 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-p", "-fn", dmen
 static const char *rofidruncmd[]  = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "st", NULL };
 
+#include <X11/XF86keysym.h>
+
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,					   	spawn,          {.v = rofidruncmd } },
