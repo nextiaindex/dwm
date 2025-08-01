@@ -93,6 +93,9 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ 0, 							XK_Print   spawn, 		   SHCMD("~/.local/bin/maim-plain")},
+	{ MODKEY, 						XK_Print   spawn, 		   SHCMD("~/.local/bin/maim-fancy")},
+	{ ControlMask, 					XK_Print   spawn, 		   SHCMD("~/.local/bin/maim-full")},
 };
 
 /* button definitions */
