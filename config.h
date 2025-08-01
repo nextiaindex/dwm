@@ -9,11 +9,11 @@ static const int horizpadbar        = 4;        /* horizontal padding for status
 static const int vertpadbar         = 8;        /* vertical padding for statusbar */
 static const char *fonts[]          = { "UnifontExMono:size=12" };
 static const char dmenufont[]		= { "monospace:size=10" }; // im not using dmenu. This line exists to prevent compiler errors.
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray1[]       = "#1f2430";
+static const char col_gray2[]       = "#686868";
+static const char col_gray3[]       = "#cccac2";
+static const char col_gray4[]       = "#f28779";
+static const char col_cyan[]        = "#333c50";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
