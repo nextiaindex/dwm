@@ -8,7 +8,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar        = 4;        /* horizontal padding for statusbar */
 static const int vertpadbar         = 8;        /* vertical padding for statusbar */
-static const char *fonts[]          = { "Space Mono:size=11" };
+static const char *fonts[]          = { "Iosevka Custom:size=11" };
 static const char dmenufont[]		= { "monospace:size=10" }; // im not using dmenu. This line exists to prevent compiler errors.
 static const char col_gray1[]       = "#1f2430";
 static const char col_gray2[]       = "#686868";
